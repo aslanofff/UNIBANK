@@ -1,0 +1,66 @@
+.main_tariffs {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fafafa;
+    padding: 25px 20px;
+    border-radius: 12px;
+    margin: 0 0px 30px 0;
+    width: 90vw;
+}
+
+.main_tariffs span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.download {
+    margin-right: 30px;
+}
+
+.download p {
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #ff6400;
+    color: white;
+    padding: 15px 50px;
+    font-weight: 700;
+}
+
+.download img {
+    background-color: white;
+    border-radius: 50px;
+    width: 25px;
+    margin-left: 10px;
+}
+
+.Tariffs_container_h1 {
+    color: #ff6400;
+    margin: 50px 0 20px;
+}
+
+
+@media(max-width:1000px) {
+    .main_tariffs p {
+        font-size: 14px;
+    }
+
+    .download {}
+}
+
+@media(max-width:850px) {
+    .main_tariffs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main_tariffs span {
+        font-size: 16px;
+    }
+
+    .download {
+        width: 170px;
+        margin-top: 20px;
+    }
+}

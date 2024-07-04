@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about_bank_container {
+    padding-inline: 70px;
+    margin: 20px 0;
+}
+
+.about_bank h1 {
+    color: #ff6400;
+    margin: 0 0 20px;
+}
+
+.about_bank p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+
+
+.note_container {
+    display: flex;
+    align-items: center;
+    background-color: #ff6400;
+    border-radius: 12px;
+    padding: 25px 65px;
+    margin: 40px 0;
+    width: 100%;
+}
+
+.note_container p {
+    margin-left: 20px;
+    color: white;
+}
+
+
+
+.info_containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info_containers .info_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin: 0 0 40px 0;
+    width: 30%;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.info_containers h3 {
+    margin: 20px 0;
+}
+
+.info_containers p {
+    color: rgb(75, 74, 74);
+    font-size: 14px;
+}
+
+
+.extra_info_containers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.extra_info_containers h1 {
+    color: #ff6400;
+    margin: 0 0 20px;
+}
+
+.extra_info_containers div {
+    width: 30%;
+}
+
+.extra_info_containers p {
+    font-size: 14px;
+    color: rgb(75, 74, 74);
+    line-height: 20px;
+}
+
+.extra_info_containers span {
+    color: black;
+    font-weight: 700;
+}
+
+
+
+
+.prices_containers_about {
+    margin-top: 100px;
+}
+
+.prices_containers_about h1 {
+    color: #ff6400;
+    font-size: 36px;
+}
+
+.prices_containers {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 0;
+}
+
+.tableone,
+.tabletwo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prices_containers div {
+    width: 45%;
+    font-size: 14px;
+    color: rgb(75, 74, 74);
+}
+
+.prices_containers img {
+    margin-bottom: 20px;
+}
+
+.prices_containers p {
+    line-height: 20px;
+}
+
+
+.value_containers_about {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 100px 0 0;
+}
+
+.value_containers_about div {
+    width: 30%;
+    margin-bottom: 100px;
+    padding: 30px 50px 70px;
+    background-color: #fafafa;
+}
+
+.value_containers_about h3 {
+    margin: 20px 0;
+}
+
+.value_containers_about p {
+    color: rgb(75, 74, 74);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.value_containers_about img {
+    margin-top: -70px;
+    margin-bottom: 20px;
+}
+
+
+
+@media(max-width:1000px) {
+    .about_bank h1 {
+        color: #ff6400;
+        font-size: 20px;
+    }
+
+    .about_bank p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .note_container {
+        padding: 25px 65px;
+        margin: 30px 0;
+    }
+
+    .note_container p {
+        font-size: 14px;
+    }
+
+    .info_containers {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info_containers .info_container {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .info_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info_container p {
+        text-align: start;
+    }
+
+    .info_container div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 0 0 20px;
+    }
+
+    .info_container img {
+        width: 40px;
+    }
+
+    .extra_info_containers {
+        flex-direction: column;
+    }
+
+    .extra_info_containers div {
+        width: 100%;
+        margin: 0 0 30px;
+    }
+
+    .extra_info_containers h1 {
+        font-size: 22px;
+    }
+
+    .prices_containers {
+        flex-direction: column;
+    }
+
+    .prices_containers div {
+        width: 100%;
+    }
+
+    .tableone {
+        margin-bottom: 30px;
+    }
+
+    .large {
+        width: 100px;
+    }
+
+    .tableone div {
+        margin-right: 20px;
+    }
+
+    .tabletwo div {
+        margin-right: 20px;
+    }
+
+    .value_containers_about {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .value_containers_about div {
+        width: 100%;
+    }
+
+    .value_containers_about h3 {
+        font-size: 15px;
+    }
+
+    .value_containers_about p {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:800px) {
+    .about_bank_container {
+        padding-inline: 20px;
+    }
+
+    .note_container {
+        flex-direction: column;
+        padding: 25px 10px;
+    }
+
+    .note_container img {
+        width: 40px;
+    }
+
+    .prices_containers p {
+        font-size: 12px;
+    }
+
+    .prices_containers img {
+        width: 120px;
+    }
+
+    .prices_containers p {
+        line-height: 15px;
+    }
+
+    .large {
+        width: 10px;
+    }
+}
+
+@media(max-width:650px) {
+    .note_container {
+        padding: 17px 0px;
+    }
+
+    .note_container p {
+        font-size: 12px;
+    }
+
+    .info_containers .info_container {
+        padding: 20px 30px;
+    }
+
+    .info_container img {
+        width: 20px;
+    }
+
+    .info_container h3 {
+        font-size: 17px;
+    }
+
+    .info_container p {
+        font-size: 12px;
+    }
+
+    .extra_info_containers p {
+        font-size: 12px;
+    }
+
+    .prices_containers p {
+        font-size: 10px;
+    }
+
+    .prices_containers img {
+        width: 100px;
+    }
+
+    .prices_containers p {
+        line-height: 10px;
+    }
+
+    .tableone div {
+        margin-right: 15px;
+    }
+
+    .tabletwo div {
+        margin-right: 15px;
+    }
+}
+
+@media(max-width:500px) {
+    .about_bank h1 {
+        font-size: 17px;
+    }
+
+    .about_bank p {
+        font-size: 10px;
+    }
+
+    .info_containers .info_container {
+        padding: 10px 20px;
+    }
+
+    .prices_containers p {
+        font-size: 8px;
+    }
+
+    .prices_containers img {
+        width: 70px;
+    }
+
+    .prices_containers p {
+        line-height: 8px;
+    }
+
+    .prices_containers_about h1 {
+        font-size: 23px;
+    }
+
+    .value_containers_about img {
+        width: 70px;
+    }
+
+    .value_containers_about div {
+        padding: 20px 30px 40px;
+    }
+}
